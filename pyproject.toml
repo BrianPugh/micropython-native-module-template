@@ -1,0 +1,14 @@
+[tool.belay.group.dev]
+optional = true
+
+[tool.belay.group.dev.dependencies]
+argparse = "https://github.com/micropython/micropython-lib/blob/master/python-stdlib/argparse/argparse.py"
+fnmatch = "https://github.com/micropython/micropython-lib/blob/master/python-stdlib/fnmatch/fnmatch.py"
+pathlib = "https://github.com/micropython/micropython-lib/blob/master/python-stdlib/pathlib/pathlib.py"
+shutil = "https://github.com/micropython/micropython-lib/blob/master/python-stdlib/shutil/shutil.py"
+tempfile = "https://github.com/micropython/micropython-lib/blob/master/python-stdlib/tempfile/tempfile.py"
+unittest = [
+    "https://github.com/micropython/micropython-lib/blob/master/python-stdlib/unittest/unittest/__init__.py",
+    "https://github.com/micropython/micropython-lib/blob/master/python-stdlib/unittest-discover/unittest/__main__.py"
+]
+uprofiler = "https://github.com/BrianPugh/micropython-libs/blob/main/lib/uprofiler.py"
